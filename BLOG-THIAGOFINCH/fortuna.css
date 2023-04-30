@@ -1,0 +1,125 @@
+body {   /* cabeçalho */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {   /* pagina inteira baSE  */
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  h1 {   /* SOMENTE H1 */
+    margin: 0;
+  }
+  
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {   /* por section */
+    margin-bottom: 2em;
+  }
+  
+  h2 {   /* SOMENTE H2 */
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  p {   /* para paragrafos */
+    line-height: 1.5;
+  }
+  
+  #milhao {
+    background-color: #f2f2f2;
+    padding: 2em;
+  }
+  
+  #milhao p {
+    font-size: 1.2em;
+  }
+  
+  #sua-fortuna {
+    background-color: #fff;
+    padding: 2em;
+  }
+  
+  #sua-fortuna p {
+    font-size: 1.2em;
+  }
+  
+  #por-que-famoso {
+    background-color: #f2f2f2;
+    padding: 2em;
+  }
+  
+  #por-que-famoso p {
+    font-size: 1.2em;
+  }
+  
+  #comecar-negocio {
+    background-color: #fff;
+    padding: 2em;
+  }
+  
+  #comecar-negocio p {
+    font-size: 1.2
+  }
+
+  footer {   /* rodape */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  a {   /* texto botao */
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover { /* botao */
+    color: #777;
+  }
+
+  .btn { /* botao */
+    display: inline-block;
+    background-color: #fae06f;
+    color: rgb(0, 255, 213);
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: rgb(251, 255, 0);
+  }
+  
+  .btn:hover { /* botao */
+    background-color: #ffd208;
+    cursor: pointer;
+  }
+
+.fig1 { /* imagem */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  
+}
+
+ul li { /* imagem ao lado */
+  display: inline-block;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}

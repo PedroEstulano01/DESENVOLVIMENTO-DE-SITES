@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 1em;
+  }
+  
+  nav a {
+    color: rgba(0, 0, 0, 0.74);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Estilos específicos para as seções */
+  #sobre-mim {
+    background-color: #f2f2f2;
+    padding: 2em;
+  }
+  
+  #sobre-mim p {
+    font-size: 1.2em;
+  }
+  
+  #sua-fortuna {
+    background-color: #fff;
+    padding: 2em;
+  }
+  
+  #sua-fortuna p {
+    font-size: 1.2em;
+  }
+  
+  #por-que-famoso {
+    background-color: #f2f2f2;
+    padding: 2em;
+  }
+  
+  #por-que-famoso p {
+    font-size: 1.2em;
+  }
+  
+  #comecar-negocio {
+    background-color: #fff;
+    padding: 2em;
+  }
+  
+  #comecar-negocio p {
+    font-size: 1.2
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #777;
+  }
+  
+  /* Estilos para botões */
+  button {
+    background-color: #333;
+    color: rgb(8, 0, 0);
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  /* Estilos para formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  label {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 0.5em;
+    border: 1px solid #333;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  textarea {
+    height: 8em;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #777;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #fae06f;
+    color: rgb(0, 255, 213);
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: rgb(251, 255, 0);
+  }
+  
+  .btn:hover {
+    background-color: #ffd208;
+    cursor: pointer;
+  }
+
+.fig1 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  
+}
+
+
